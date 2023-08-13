@@ -1,0 +1,27 @@
+body {
+  background-color: bisque;
+}
+
+#navbar {
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+#navbar .nav-link:hover {
+  color: bisque;
+}
+
+#text-museum h1 {
+  font-size: 3.5rem;
+}
+
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  #text-museum h1 {
+    font-size: 2.5rem;
+  }
+}
